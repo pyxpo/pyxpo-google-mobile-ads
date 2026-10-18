@@ -69,7 +69,7 @@ result = await ad.show_async()                             # returns when the us
 | Web page and desktop window (`pyxpo run web` / `pyxpo run desktop`) | Simulated test ads for Google's test unit IDs (`TestIds`), with the same events and results. Other unit IDs do not fill there. |
 | Mac Catalyst, Windows | None, because Google has no SDK for them. `is_available()` is False, loads raise `AdError("unavailable")`, banners render nothing and `show_async()` returns `shown=False`. |
 
-Requires Python 3.9+ and `pyxpo>=0.1.0a3`.
+Requires Python 3.9+ and `pyxpo>=0.1.0a4`.
 
 ## Install
 

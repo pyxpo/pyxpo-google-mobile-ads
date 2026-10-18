@@ -10,4 +10,4 @@
   and native ads load once.
 - README with a guide for every format, consent, apps for children, a production checklist, troubleshooting
   and screenshots from Android and iOS.
-- Needs `pyxpo>=0.1.0a3` (native contract 3, `ios.swiftPackages`).
+- Needs `pyxpo>=0.1.0a4` (native contract 3, `ios.swiftPackages`).
