@@ -20,8 +20,8 @@ False, loads raise `AdError("unavailable")` and `show_async()` returns `shown=Fa
 The web page and the desktop window show simulated test ads for Google's test unit IDs (`TestIds`) only, so ad
 flows can be tried in development; other unit IDs do not fill there.
 
-An app lists `"ads"` in `[tool.pyxpo] modules` and adds the `pyxpo_google_mobile_ads.plugin` config plugin with its AdMob app
-IDs (`androidAppId`, `iosAppId`; Google's test app IDs by default).
+An app lists `"google-mobile-ads"` in `[tool.pyxpo] modules` and adds the `pyxpo_google_mobile_ads.plugin` config
+plugin with its AdMob app IDs (`androidAppId`, `iosAppId`; Google's test app IDs by default).
 """
 from __future__ import annotations
 
@@ -46,7 +46,7 @@ __all__ = [
     "use_interstitial_ad", "use_rewarded_ad", "use_rewarded_interstitial_ad", "use_app_open_ad",
     "initialize_async", "is_available", "set_request_configuration", "get_request_configuration",
     "request_tracking_async", "get_tracking_status_async", "open_ad_inspector_async", "consent", "ConsentStatus",
-    "is_test_id",
+    "is_test_id", "AdHandle", "EVENTS",
 ]
 
 
@@ -911,9 +911,6 @@ def _NativeAd(*, unit_id: str, template: str, request_options: Optional[Dict[str
              on_error: Optional[Callable[[AdError], Any]] = None, on_click: Optional[Callable[[Any], Any]] = None,
              on_impression: Optional[Callable[[Any], Any]] = None, on_paid: Optional[Callable[[Any], Any]] = None,
              style: Any = None) -> Any:
-    """A native ad drawn natively from Google's template layout: "small" (icon, headline, call to action, about
-    96 high) or "medium" (adds the media view and body text, about 330 high). It always shows the "Ad" badge and
-    the AdChoices icon, as AdMob policy needs. Collapsed to 0 height until an ad loads."""
     from pyxpo.style import parse_color
     height, set_height = use_state(0)
     ready = _use_initialized()
