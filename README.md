@@ -1,5 +1,7 @@
 # pyxpo-google-mobile-ads
 
+[![CI](https://github.com/pyxpo/pyxpo-google-mobile-ads/actions/workflows/ci.yml/badge.svg)](https://github.com/pyxpo/pyxpo-google-mobile-ads/actions/workflows/ci.yml) [![PyPI](https://img.shields.io/pypi/v/pyxpo-google-mobile-ads)](https://pypi.org/project/pyxpo-google-mobile-ads/) [![Python](https://img.shields.io/pypi/pyversions/pyxpo-google-mobile-ads)](https://pypi.org/project/pyxpo-google-mobile-ads/) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 Google AdMob ads for [pyxpo](https://github.com/pyxpo/pyxpo) apps, written in Python. It covers banner, native,
 interstitial, rewarded, rewarded interstitial and app open ads on Android and iOS. It also handles consent through
 Google's User Messaging Platform, the request settings for apps for children, and simulated test ads in the browser.
