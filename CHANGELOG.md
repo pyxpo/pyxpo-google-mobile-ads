@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Moved to its own repository, github.com/pyxpo/pyxpo-google-mobile-ads, with CI on Python 3.9 and 3.12 and releases from tags.
+- Added a security policy, a contributing guide and issue templates.
+
 ## 0.1.0a1
 
 - First release: banner, interstitial, rewarded, rewarded interstitial, app open and native template ads on Android
