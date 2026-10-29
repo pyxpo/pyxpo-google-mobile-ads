@@ -5,7 +5,7 @@ interstitial, rewarded, rewarded interstitial and app open ads on Android and iO
 Google's User Messaging Platform, the request settings for apps for children, and simulated test ads in the browser.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/google-mobile-ads/docs/images/hero.png" width="820" alt="Banner, medium rectangle and native ads on Android; interstitial and rewarded ads on iOS">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-google-mobile-ads/main/docs/images/hero.png" width="820" alt="Banner, medium rectangle and native ads on Android; interstitial and rewarded ads on iOS">
 </p>
 
 ```python
@@ -183,7 +183,7 @@ one module rather than spread through your code.
 ## Banner ads
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/google-mobile-ads/docs/images/banner.png" width="620" alt="An anchored adaptive banner and a medium rectangle on Android and iOS">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-google-mobile-ads/main/docs/images/banner.png" width="620" alt="An anchored adaptive banner and a medium rectangle on Android and iOS">
 </p>
 
 ```python
@@ -237,7 +237,7 @@ Where ads are not available (Mac Catalyst, Windows), `BannerAd` renders nothing.
 ## Native ads
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/google-mobile-ads/docs/images/native.png" width="560" alt="Small and medium native templates on Android, and on iOS with Google's native ad validator">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-google-mobile-ads/main/docs/images/native.png" width="560" alt="Small and medium native templates on Android, and on iOS with Google's native ad validator">
 </p>
 
 Native ads match the look of your app. This package draws them with native views from Google's template layouts:
@@ -268,7 +268,7 @@ Things to know:
 ## Full-screen ads
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/google-mobile-ads/docs/images/full-screen.png" width="820" alt="Interstitial, rewarded, rewarded interstitial and app open ads">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-google-mobile-ads/main/docs/images/full-screen.png" width="820" alt="Interstitial, rewarded, rewarded interstitial and app open ads">
 </p>
 
 | Class | Hook | What it is |
@@ -296,7 +296,7 @@ The hooks are the easiest way to use full-screen ads. Each hook:
 - releases the ad when the component unmounts
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/google-mobile-ads/docs/images/hooks.png" width="300" alt="A list of full-screen ads, each marked Ready, and the line Reward granted: 10 coins">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-google-mobile-ads/main/docs/images/hooks.png" width="300" alt="A list of full-screen ads, each marked Ready, and the line Reward granted: 10 coins">
 </p>
 
 ```python
@@ -650,7 +650,7 @@ banner under the gallery and an interstitial now and then when the user taps **G
 dance.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo/main/packages/google-mobile-ads/docs/images/doodle-dance.png" width="680" alt="Doodle Dance: a banner in the gallery, an interstitial on Generate, then the dance plays">
+  <img src="https://raw.githubusercontent.com/pyxpo/pyxpo-google-mobile-ads/main/docs/images/doodle-dance.png" width="680" alt="Doodle Dance: a banner in the gallery, an interstitial on Generate, then the dance plays">
 </p>
 
 ```python
